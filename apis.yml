@@ -1,8 +1,16 @@
 aid: continuumcloud
 name: ContinuumCloud
-description: ContinuumCloud is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  ContinuumCloud is a Tampa, Florida-based provider of cloud software purpose-built for behavioral
+  health and human services organizations. Its integrated suite spans three products: Welligent, an
+  electronic health record (EHR) platform for caseload management, scheduling, clinical documentation
+  and revenue-cycle management; DATIS e3, a unified human capital management (HCM) and payroll system
+  covering recruiting, onboarding, timekeeping, talent management and workforce analytics; and CaredFor,
+  a patient-engagement platform that builds online communities connecting clients, alumni and families.
+  Formerly known as Behavioral Holdings and founded in 2020, the company draws on 25+ years of domain
+  focus and is backed by Battery Ventures. ContinuumCloud does not publish a public developer API,
+  OpenAPI definition, SDKs, or MCP server at this time; this profile captures its company identity and
+  public web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/continuumcloud/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +18,56 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://continuumcloud.com/wp-content/uploads/2022/03/cropped-CC_Thumbnail_v2.png
 tags:
 - Company
+- Behavioral Health
+- Human Services
+- Electronic Health Records
+- Human Capital Management
+- Patient Engagement
+- Payroll
+- Healthcare
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/continuumcloud-domain-security.yml
+- type: Website
+  url: https://continuumcloud.com
+- type: Blog
+  url: https://continuumcloud.com/blogs/
+- type: Support
+  url: https://continuumcloud.com/contact/
+- type: PrivacyPolicy
+  url: https://continuumcloud.com/privacy-policy/
+- type: TermsOfService
+  url: https://continuumcloud.com/terms/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/continuumcloud
+- type: Twitter
+  url: https://x.com/ContinuumCloud
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
