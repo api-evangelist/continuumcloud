@@ -54,6 +54,7 @@ tags:
 - Payroll
 - Healthcare
 - Software-as-a-Service
+- Mental Health
 tags_raw:
 - Company
 - Behavioral Health
@@ -64,6 +65,7 @@ tags_raw:
 - Payroll
 - Healthcare
 - SaaS
+- Mental Health
 apis: []
 common:
 - type: DomainSecurity
